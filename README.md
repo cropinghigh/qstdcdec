@@ -16,6 +16,10 @@ Related projects:
 
 Building:
 
+    1. Install inmarsatc library(libinmarsatc-git for arch-like systems)
+
+    2. Build
+
           mkdir build
           cd build
           cmake ..

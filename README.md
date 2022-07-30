@@ -15,10 +15,8 @@ Related projects:
     https://github.com/cropinghigh/sdrpp-inmarsatc-demodulator
 
 Building:
-
-    1. Install inmarsatc library(libinmarsatc-git for arch-like systems)
-
-    2. Build
+  1.  Install inmarsatc library(libinmarsatc-git for arch-like systems)
+  2.  Build
 
           mkdir build
           cd build

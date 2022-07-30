@@ -1,7 +1,7 @@
 # qstdcdec
 QT version of stdcdec_parser
 
-Requires stream of decoded samples at the input
+Requires stream of decoded frames at the input
 
 Related projects:
 
@@ -15,7 +15,9 @@ Related projects:
     https://github.com/cropinghigh/sdrpp-inmarsatc-demodulator
 
 Building:
+
   1.  Install inmarsatc library(libinmarsatc-git for arch-like systems)
+
   2.  Build
 
           mkdir build
@@ -25,7 +27,12 @@ Building:
           sudo make install
 
 Usage:
+
   1.  Run stdcdec_demod->stdcdec_decoder chain or use the sdrpp-inmarsatc-demodulator module to get UDP stream of frames
+
   2.  Select same port in the qstdcdec and start listening
-  3.  You will seee decoded packets and messages
+
+  3.  You will see decoded packets and messages
+
+  WARNING! All messages are directed to their recipients! If you're not the recipient, you should delete received message!
 
